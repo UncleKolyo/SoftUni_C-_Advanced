@@ -1,2 +1,6 @@
 # SoftUni_C-_Advanced
-All my C# Advanced Exersizes and Exams
+Here I will store all my C# Advanced Exersizes and Exams
+
+Feel free to use anything.
+
+Enjoy my monkey code!
