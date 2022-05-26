@@ -6,22 +6,34 @@ namespace Periodic_Table
 {
     internal class Program
     {
+        class StringComparer : IComparer<string>
+        {
+            public int Compare(string x, string y)
+            {
+                return x.CompareTo(y);
+            }
+
+        }
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            string[] input = Console.ReadLine().Split(' ').ToArray();
             HashSet<string> set = new HashSet<string>();
 
-
-            for (int i = 0; i < n - 1; i++)
+            for (int i = 0; i < n; i++)
             {
-                for (int j = 0; j < input.Length; j++)
+                string[] input = Console.ReadLine().Split(' ').ToArray();
+                foreach (var chem in input)
                 {
-                    set.Add(input[j]);
+                    set.Add(chem);
                 }
-
+            }
+            SortedSet<string> sortedSet = new SortedSet<string>(new StringComparer());
+            foreach (var chem in set)
+            {
+                sortedSet.Add(chem);
             }
 
+            Console.WriteLine(String.Join(' ', sortedSet));
 
         }
     }
