@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineNumbers", "LineNumbers\LineNumbers.csproj", "{F1EE2245-E103-4AF3-9470-225E1E72FC8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyBinaryFile", "..\CopyBinaryFile\CopyBinaryFile.csproj", "{D098BF08-E891-4DD4-BD67-ED7A19F6975E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F1EE2245-E103-4AF3-9470-225E1E72FC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1EE2245-E103-4AF3-9470-225E1E72FC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1EE2245-E103-4AF3-9470-225E1E72FC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D098BF08-E891-4DD4-BD67-ED7A19F6975E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D098BF08-E891-4DD4-BD67-ED7A19F6975E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D098BF08-E891-4DD4-BD67-ED7A19F6975E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D098BF08-E891-4DD4-BD67-ED7A19F6975E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
