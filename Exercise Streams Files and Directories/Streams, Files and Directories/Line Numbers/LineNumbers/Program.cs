@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Line_Numbers
+namespace LineNumbers
 {
     public class LineNumbers
     {
@@ -38,13 +38,13 @@ namespace Line_Numbers
                             punctCounter++;
                         }
                     }
-                  File.AppendAllText(outputFilePath, $"Line {linecounter}: {line} ({letterCounter}) ({punctCounter}) {Environment.NewLine}");
-                  //  Console.WriteLine($"Line {linecounter}: {line} ({letterCounter}) ({punctCounter})");
+                    File.AppendAllText(outputFilePath, $"Line {linecounter}: {line} ({letterCounter}) ({punctCounter}) {Environment.NewLine}");
+                    //  Console.WriteLine($"Line {linecounter}: {line} ({letterCounter}) ({punctCounter})");
                     letterCounter = 0;
                     punctCounter = 0;
                     linecounter++;
                     line = reader.ReadLine();
-                }         
+                }
             }
         }
     }
