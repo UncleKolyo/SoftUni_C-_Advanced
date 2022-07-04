@@ -11,9 +11,9 @@
         static void Main()
         {
             //C:\Users\Admin\Desktop\Gunsmith-The Game
-            string path = @"C:\Users\Admin\Desktop\Gunsmith-The Game";
-           // string path = Console.ReadLine();
-            string reportFileName = @"C:\Users\Admin\Desktop\Gunsmith-The Game\Нова папка";
+            //string path = @"C:\Users\Admin\Desktop\Gunsmith-The Game";
+            string path = Console.ReadLine();
+            string reportFileName = @"\report.txt";
 
             string reportContent = TraverseDirectory(path);
             Console.WriteLine(reportContent);
